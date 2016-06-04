@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Fox</title>
+            <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title> Push Notifications</title>
+         <meta name="description" content="Aplicação para envio de notificações através do navegador">
+         <meta name="author" content="Effort Creative">
+         <link rel="icon" href="css/imgs/icon.png"  type="image/png">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta name=msapplication-TileColor content=#333>
+         <meta name="theme-color" content="#333">
+         <script src="js/index.js"></script>
+         <link rel="manifest" href="manifest.json">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="jquery.min.js"></script>
+        <script src="js/jquery.asyncform.1.0.min.js"></script>
+    </head>
+    <header>
+        <img src="css/imgs/foxicon.png">
+        <div id="menu">
+                <ul><center>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#sobre">sobre</a></li>
+                        <li><a href="#contato">contato</a></li>
+                     </center>
+                </ul>
+        </div>
+        <div id="login-menu">
+            <ul>
+                        <li><a href="#">login</a></li>
+                        <li><a href="#">cadastrar</a></li>
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+    </header>
+    <script>
+        function preload(){document.getElementById('load').style.display='none'}
+    </script>
+    <body onload="preload()">
+        <div id='load' style="position:fixed;background:white;width:100%;height:100%;z-index:5;transition:all 0.2s ease"></div>
+        <div id="apresentation">
+            <div id="apresentation-info">
+                <div id="advertising">
+                    <p>Expanda a forma com  que seu site interage com os leitores</p>
+                    <p>Envie notificações através do navegador para alertar seus leitores que um novo conteudo está disponível.</p>
+                    <button>Experimente</button>
+                </div>
+                <img id="smartphone" src="css/imgs/hand.png">
+                <div id="details">
+                    <div id="compatibility">
+                        <p>Notificações compatíveis com :</p>
+                        <span></span>
+                        <span></span>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div id="download">
+                        <p>Baixe o administrador de notificações para seu smartphone</p>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a id="sobre"></a>
+        <div id="about">
+            <div id="info">
+                <p>Notificações são fáceis de serem gerenciadas</p>
+                <p>Use o Fox Notification para criar notificações e alertar sobre novidades aos leitores de seu site , ou simplesmente propague a informação ou um lembrete importante. Acompanhe o status das notificações através de gráficos,saiba quantos seguidores tem em seu canal e até mesmo quantas pessoas receberam e abriram sua notificação.</p>
+            </div>
+            <div id="characteristics">
+                <div class='characteristics'>
+                    <div class="header">
+                        <span class='icon'></span>
+                        <p>Aumente as visualizações</p>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="characteristics-info">
+                        <p>Matenha seus seguidores sempre atualizados e informe a eles sempre que um conteúdo estiver disponível, garantindo assim uma maior propagação da informação.</p>
+                    </div>
+                </div>
+                <div class='characteristics'>
+                    <div class="header">
+                        <span class='icon'></span>
+                        <p>Esqueça Newsletter por email</p>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="characteristics-info">
+                        <p>Envie notificações através do navegador e redirecione para um link. Basta que o usuário permita as notificações em seu navegador para seu site ou aplicação.</p>
+                    </div>
+                </div>
+                <div class='characteristics'>
+                    <div class="header">
+                        <span class='icon'></span>
+                        <p>Troque o SMS por notificações</p>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="characteristics-info">
+                        <p>Atinja usuário tanto desktop quanto mobile. Nos celulares, basta conexão de dados que o usuário receberá a notificação como se fosse uma aplicação no dispositivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <a id="contato"></a>
+            <p>ALGUMA DÚVIDA?</p>
+            <p>Entre em contato com a Effort Creative e tire suas duvidas ou contrate uma plano e eleve a forma de que seu site ou aplicação se conecta com as pessoas</p>
+            <button onclick="window.location.href='http://effortcreative.com.br/contato/'">CONTATO</button>
+            <ul>
+                <center>
+                    <li><a href="https://www.instagram.com/effortcreativ/"></a></li>
+                    <li><a href="https://www.facebook.com/effortcreativ/?ref=hl"></a></li>
+                    <li><a href="https://plus.google.com/b/104489571456662290827/104489571456662290827/about"></a></li>
+                </center>
+            </ul>
+        </div>
+    </body>
+    <footer>
+        <span></span>
+        <p>Copyright © 2015 - effortcreative.com - Todos os direitos reservados</p>
+    </footer>
+</html>
